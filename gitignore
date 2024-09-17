@@ -1,0 +1,31 @@
+# Ignorar arquivos temporários e de backup
+*.log                # Arquivos de log
+*.tmp                # Arquivos temporários
+*.bak                # Arquivos de backup
+*.swp                # Arquivos de swap de editores de texto
+*.swo                # Arquivos de swap de editores de texto
+
+# Ignorar arquivos e diretórios específicos do sistema operacional
+.DS_Store            # macOS
+Thumbs.db            # Windows
+
+# Ignorar arquivos de configuração do ambiente
+.env                 # Arquivos de configuração de ambiente que podem conter dados sensíveis
+
+# Ignorar arquivos e diretórios de IDEs e editores de texto
+.vscode/             # Diretório de configuração do Visual Studio Code
+.idea/                # Diretório de configuração do IntelliJ IDEA
+*.sublime-workspace   # Arquivos de workspace do Sublime Text
+*.sublime-project     # Arquivos de projeto do Sublime Text
+
+# Ignorar arquivos de cache e diretórios temporários de build
+/cache
+/build
+/target
+
+# Ignorar arquivos temporários criados por editores e ferramentas de desenvolvimento
+*.tmp
+*.temp
+
+# Ignorar diretórios de cache e dados gerados por ferramentas
+/.cache
